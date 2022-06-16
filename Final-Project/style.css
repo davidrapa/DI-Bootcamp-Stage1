@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+      background-size: cover;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.pin {
+width: 50px;
+height: 50px;
+display: inline-block;
+text-align: center;
+}
+
+p {
+   column-count: 2;
+   column-gap: 10px;
+  column-width: 100px;
+  box-sizing: border-box;
+  object-fit: scale-down;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+span{ 
+font-family: 'Roboto', sans-serif;
+font-size: 1.3em;
+font-weight: bold;
+
+
+ }
+
+a:hover {
+  background-color: steelblue;
+font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+
+
+}
+
+li, .nav1{
+list-style: none;
+display: inline-block;
+border: 10px;
+border-color: blueviolet ;
+cursor: pointer;
+
+}
+
+
+.Title1 {
+font-family: 'Roboto', sans-serif;
+font-size: 3em;
+font-weight: bold;
+color: darkred;
+}
+
+.content1 {
+font-family: 'Roboto', sans-serif;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.container1 {
+ background-image: url(maraback.jpg);
+
+
+    
+}
+
+.container2 {
+ background-image: url(maraback.jpg);
+object-fit: cover;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transition: all .5s;
+    border-style: inset;
+}
+
+img:hover {
+    transform: scale(1.1);
+
+} 
+
+.villa {
+font-family: 'Roboto', sans-serif;
+font-size: 1.5em;
+font-weight: bold;
+
+}
+
+video {
+   width: 600px;
+   top: -40px;
+   left: -10px;
+}
+
+.form1 {
+border-style: dashed;
+border-width: 2px ;
+display: inline-block;
+padding: 15px;
+text-align: left;
+font-family: 'Roboto', sans-serif;
+font-size: 1.3em;
+font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block;
+  text-align: center;   
+}
+
+article {
+  display: block;
+  text-align: center;
+}

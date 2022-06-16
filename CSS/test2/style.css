@@ -1,0 +1,25 @@
+body {
+background-image: url(salto.jpg);
+}
+
+nav{
+font-family: Arial: ;
+font-size: 50px;
+text-align: center;
+
+}
+body {
+background-color: rgba(0, 255, 0, 0.2);
+}
+
+img {
+float: right;
+border-color: orange;
+border-width: 50px;
+border: medium;
+}
+
+span {
+font-family: comics sans;
+font-size: 30px;
+}
