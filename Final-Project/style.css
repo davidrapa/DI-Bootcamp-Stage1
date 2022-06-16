@@ -91,9 +91,10 @@ font-weight: bold;
 }
 
 .container1 {
- background-image: url(maraback.jpg);
-
-
+background-image: url(maraback.jpg);
+width: 100%;
+height: 100%;
+position: relative;
     
 }
 
